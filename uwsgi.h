@@ -2791,6 +2791,7 @@ struct uwsgi_server {
 	// uWSGI 2.1 backport
 	int new_argc;
 	char **new_argv;
+        uint64_t max_requests_delta;
 };
 
 struct uwsgi_rpc {
